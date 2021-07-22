@@ -1,0 +1,68 @@
+{
+  "id": "910b56b4-4712-45ca-81bb-51330fdb16d3",
+  "version": "2.0",
+  "name": "Calculator",
+  "url": "https://www.meta-calculator.com",
+  "tests": [{
+    "id": "e1c4b64a-5fe5-4bb9-9128-b60c3014d147",
+    "name": "2mas2",
+    "commands": [{
+      "id": "4f79760a-d000-4ba5-b8aa-44ae7f8ccdbb",
+      "comment": "",
+      "command": "open",
+      "target": "/scientific-calculator.php?panel-201-calculator",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36d5b694-8c42-4d7c-861a-501ca55429ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6 > .calc > .mcbtn > .btn2",
+      "targets": [
+        ["css=.col-md-6 > .calc > .mcbtn > .btn2", "css:finder"],
+        ["xpath=//div[@id='original-scientific-keyboard']/div/div/div[17]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[17]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7f42643-dde5-4a93-b492-b329b1b65e4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.calc > .mtext > .btnPlus",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28974390-c495-4d07-9c55-4572dc5146ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6 > .calc > .mcbtn > .btn2",
+      "targets": [
+        ["css=.col-md-6 > .calc > .mcbtn > .btn2", "css:finder"],
+        ["xpath=//div[@id='original-scientific-keyboard']/div/div/div[17]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[17]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e343f4b-aa2b-4d6b-8802-ab355e6ca142",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6 > .calc > .mcbtn > .btnEquals",
+      "targets": [
+        ["css=.btnEquals > font > font", "css:finder"],
+        ["xpath=//div[@id='original-scientific-keyboard']/div/div/div[11]/button/font/font", "xpath:idRelative"],
+        ["xpath=//div[11]/button/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dc2bad40-dbd9-4b4f-a209-1e89df3fec38",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e1c4b64a-5fe5-4bb9-9128-b60c3014d147"]
+  }],
+  "urls": ["https://www.meta-calculator.com/"],
+  "plugins": []
+}
