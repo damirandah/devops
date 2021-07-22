@@ -11,6 +11,7 @@ pipeline {
         plan='plan-devops-sura-damir1-dev'
         app='app-devops-sura-starter-damir1-dev'
         image='crdevopssuradamir1dev.azurecr.io/starter:latest'
+        ToA = credentials('SonarQubeToA')
     }
 
     stages {
